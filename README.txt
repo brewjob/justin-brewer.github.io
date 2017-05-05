@@ -52,17 +52,10 @@ and stored as strings.
 
 
 //---------------------------------------------------------------------
-To Run: 
 
-- In our experience, Web Speech API does not work from pages hosted locally, so for testing, we used 
-Web Server for Chrome which allowed us to bypass the restriction. Other methods of hosting this 
-directory on a server are expected to operate similarly.
+- Click microphone icon to toggle speech recognition and feedback on/off.
 
-Web Server for Chrome: https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb?hl=en
-
-- Open tableau.html in Google Chrome
-
-- Click microphone to speak a command. Continuous listening mode is on our to do list.
+-open the console and click "Print Sheet" button to view underlying data for the current sheet, which contains the legal field values that your speech will be compared against. Currently, only Strings, Integers, and floats can be recognized and filtered.
 
 //---------------------------------------------------------------------
 Commands:
@@ -91,12 +84,6 @@ Tableau filtering is done in one of four ways:
 
 
 -"Reload": refreshes page and clears all filters
-
--The text box next to the microphone icon processes text commands the same as it would if it received 
-the command from speech recognition. Alternatively users can call parser(<string command>) at the 
-console.
-
--Demo video is included in this directory
 
 //---------------------------------------------------------------------
 Tableau JavaScript API:
