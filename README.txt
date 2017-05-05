@@ -1,4 +1,4 @@
-UTD & Atos: Tableau VUI
+UTD: Tableau VUI
 
 //---------------------------------------------------------------------
 About this branch "final"
