@@ -1,17 +1,4 @@
 UTD: Tableau VUI
-
-//---------------------------------------------------------------------
-About this branch "final"
-
-	This branch collects a list of matches and asks the user to specify which they
-	want to apply instead of assuming the first match it good. 
-
-	The matching process is functional, but further work is needed to synchronize
-	stopping voice recognition when synthesis starts and then immediately restarting it.
-
-	
-
-
 //---------------------------------------------------------------------
 API links:
 
@@ -82,12 +69,7 @@ Commands:
 
 -Change tabs by saying  a tab name.
 
--Filter by saying a filter name. If two fields share a filter name, whichever is stored in a lower 
-index in the field array will be chosen unless the user also specifies the field name.
-
-e.g. Texas is a State and County name on the 'Obesity' tab and County comes first in the array of 
-fields for this tab, so saying 'Texas' without specifying State will show Counties named 'Texas'. 
-Saying 'State Texas' or 'Texas State' will filter by state.
+-Filter by saying a filter name. If two fields share a filter name, you will be asked, by voice which field you would like to apply the filter to. 
 
 Tableau filtering is done in one of four ways: 
 	
