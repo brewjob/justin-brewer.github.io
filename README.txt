@@ -1,4 +1,7 @@
-UTD: Tableau VUI
+Voice-User-Interface for Tableau
+
+*This was my group project for Senior Design at The University of Texas at Dallas
+
 //---------------------------------------------------------------------
 API links:
 
